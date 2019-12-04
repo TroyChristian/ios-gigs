@@ -15,6 +15,8 @@
 		FB5994F123984CDA00D822FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5994EF23984CDA00D822FE /* LaunchScreen.storyboard */; };
 		FB5994F923984E4C00D822FE /* GigsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5994F823984E4C00D822FE /* GigsTableViewController.swift */; };
 		FB5994FB239850DD00D822FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5994FA239850DD00D822FE /* LoginViewController.swift */; };
+		FB5994FD239852E400D822FE /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5994FC239852E400D822FE /* Bearer.swift */; };
+		FB5994FF2398531300D822FE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5994FE2398531300D822FE /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		FB5994F223984CDA00D822FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5994F823984E4C00D822FE /* GigsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigsTableViewController.swift; sourceTree = "<group>"; };
 		FB5994FA239850DD00D822FE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FB5994FC239852E400D822FE /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
+		FB5994FE2398531300D822FE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				FB5994E623984CD400D822FE /* SceneDelegate.swift */,
 				FB5994E823984CD400D822FE /* ViewController.swift */,
 				FB5994EA23984CD400D822FE /* Main.storyboard */,
+				FB5994FC239852E400D822FE /* Bearer.swift */,
+				FB5994FE2398531300D822FE /* User.swift */,
 				FB5994FA239850DD00D822FE /* LoginViewController.swift */,
 				FB5994F823984E4C00D822FE /* GigsTableViewController.swift */,
 				FB5994ED23984CDA00D822FE /* Assets.xcassets */,
@@ -146,9 +152,11 @@
 			files = (
 				FB5994E923984CD400D822FE /* ViewController.swift in Sources */,
 				FB5994F923984E4C00D822FE /* GigsTableViewController.swift in Sources */,
+				FB5994FD239852E400D822FE /* Bearer.swift in Sources */,
 				FB5994E523984CD400D822FE /* AppDelegate.swift in Sources */,
 				FB5994FB239850DD00D822FE /* LoginViewController.swift in Sources */,
 				FB5994E723984CD400D822FE /* SceneDelegate.swift in Sources */,
+				FB5994FF2398531300D822FE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
