@@ -48,7 +48,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="caG-Ul-XJC"/>
                     <connections>
-                        <segue destination="F65-IG-sGi" kind="presentation" modalPresentationStyle="fullScreen" id="ouv-6G-xhK"/>
+                        <segue destination="F65-IG-sGi" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="ouv-6G-xhK"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aAp-Zc-moC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -84,7 +84,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ili-dQ-bds">
                                         <rect key="frame" x="0.0" y="91" width="382" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2LL-kg-pFq">
                                         <rect key="frame" x="40" y="138" width="302" height="30"/>

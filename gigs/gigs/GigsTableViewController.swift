@@ -9,18 +9,29 @@
 import UIKit
 
 class GigsTableViewController: UITableViewController {
+    let gigController = GigController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
       
     }
+    
+    override func viewDidAppear(_ animated:Bool){
+        super.viewDidAppear(animated)
+        if gigController.bearer == nil {
+            performSegue(withIdentifier: "loginSegue", sender: self)
+            
+            
+        }
+        
+    }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -30,7 +41,7 @@ class GigsTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "", for: indexPath)
 
         // Configure the cell...
 
@@ -47,6 +58,14 @@ class GigsTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+        switch segue.identifier {
+        case "loginSegue":
+            guard let loginVC = segue.destination as? LoginViewController else {return}
+            loginVC.gigController = gigController
+        default:
+            break
+        }
     }
     
 

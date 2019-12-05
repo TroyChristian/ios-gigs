@@ -55,7 +55,7 @@ class GigController{
                 completion(nil) 
             }
             
-        }.resume()
+        }.resume()}
     
     /// log in /users/login
         func login(with user: User, completion: @escaping (Error?) -> Void) {
@@ -114,5 +114,5 @@ class GigController{
         }
     
     
-}
+
 }
