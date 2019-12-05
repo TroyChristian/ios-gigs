@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB29F7AC2399A48A00C1F1DE /* GigDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB29F7AB2399A48A00C1F1DE /* GigDetailViewController.swift */; };
 		FB5994E523984CD400D822FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5994E423984CD400D822FE /* AppDelegate.swift */; };
 		FB5994E723984CD400D822FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5994E623984CD400D822FE /* SceneDelegate.swift */; };
 		FB5994E923984CD400D822FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5994E823984CD400D822FE /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB29F7AB2399A48A00C1F1DE /* GigDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigDetailViewController.swift; sourceTree = "<group>"; };
 		FB5994E123984CD400D822FE /* gigs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gigs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5994E423984CD400D822FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB5994E623984CD400D822FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		FB5994E323984CD400D822FE /* gigs */ = {
 			isa = PBXGroup;
 			children = (
+				FB29F7AB2399A48A00C1F1DE /* GigDetailViewController.swift */,
 				FB5994E423984CD400D822FE /* AppDelegate.swift */,
 				FB5994E623984CD400D822FE /* SceneDelegate.swift */,
 				FB5994E823984CD400D822FE /* ViewController.swift */,
@@ -159,6 +162,7 @@
 				FB5994FD239852E400D822FE /* Bearer.swift in Sources */,
 				FB5994E523984CD400D822FE /* AppDelegate.swift in Sources */,
 				FB5994FB239850DD00D822FE /* LoginViewController.swift in Sources */,
+				FB29F7AC2399A48A00C1F1DE /* GigDetailViewController.swift in Sources */,
 				FB5994E723984CD400D822FE /* SceneDelegate.swift in Sources */,
 				FB5994FF2398531300D822FE /* User.swift in Sources */,
 			);
